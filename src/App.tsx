@@ -22,7 +22,6 @@ function App() {
           デグメディア
         </h1>
         <div className="card"></div>
-        
       </div>
     </>
   );
