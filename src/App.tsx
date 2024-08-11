@@ -7,8 +7,9 @@ function App() {
       <div
         style={{
           backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
           height: "100vh",
           display: "flex",
           justifyContent: "flex-start",
@@ -16,9 +17,6 @@ function App() {
           flexDirection: "column",
         }}
       >
-
-        
-        <div className="app"></div>
         <h1 style={{ color: "pink", backgroundColor: "white" }}>
           デグメディア
         </h1>
