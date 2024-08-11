@@ -11,6 +11,7 @@ function App() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           height: "100vh",
+          width: "100vw",
           display: "flex",
           justifyContent: "flex-start",
           alignItems: "center",
