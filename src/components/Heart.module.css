@@ -6,6 +6,7 @@
   transform: rotate(-45deg) scale(0.5);
   opacity: 0;
   transition: none;
+  z-index: 99;
 }
 
 .heart::before,

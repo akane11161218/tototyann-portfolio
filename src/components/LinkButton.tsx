@@ -7,7 +7,7 @@ interface LinkButtonProps {
 }
 
 const LinkButton = ({ to, children }: LinkButtonProps) => (
-  <Link to={to}>
+  <Link to={to} style={{ zIndex: 100 }}>
     <button className={styles["button-style"]}>{children}</button>
   </Link>
 );
