@@ -21,6 +21,13 @@ function App() {
         <h1 style={{ color: "pink", backgroundColor: "white" }}>
           デグメディア
         </h1>
+
+        <h2 style={{ color: "pink", backgroundColor: "white" }}>
+          〜おばあちゃんデグーの長生き方法〜
+        </h2>
+
+        
+
         <div className="card"></div>
       </div>
     </>
