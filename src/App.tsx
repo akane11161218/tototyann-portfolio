@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   return (
     <>
+  
       <div
         style={{
           backgroundImage: `url(${backgroundImage})`,
@@ -28,10 +29,14 @@ function App() {
           〜おばあちゃんデグーの長生き方法〜
         </h2>
 
+        <div class="heart"></div>
 
+        
 
         <div className="card"></div>
       </div>
+
+
     </>
   );
 }

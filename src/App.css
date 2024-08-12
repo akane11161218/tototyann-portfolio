@@ -53,3 +53,36 @@
 .read-the-docs {
   color: #888;
 }
+.heart {
+	width: 120px;
+	height: 120px;
+	position: relative;
+}
+
+.heart::before,.heart::after {
+	content: "";
+	position: absolute;
+	top: 0; 
+	width: 60px;
+	height: 100px;
+	background: #97d9e1;
+	border-radius: 100px 100px 0 0;
+	
+}
+.heart::before {
+  left: 60px;
+  transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+.heart::after {
+  left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
+
+.heart-c::before {
+  　background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  }
+  .heart-c::after {
+  　background-image: linear-gradient(to bottom, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  }
