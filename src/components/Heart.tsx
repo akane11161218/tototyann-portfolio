@@ -37,8 +37,8 @@ const Heart = ({ top, left }: HeartProps) => {
         ${isVisible ? styles.visible : ""}
       `}
       style={{
-        top: `${top}px`,
-        left: `${left}px`,
+        top: `${top}%`,
+        left: `${left}%`,
       }}
     ></div>
   );
