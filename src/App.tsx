@@ -17,8 +17,16 @@ function App() {
           justifyContent: "flex-start",
           alignItems: "center",
           flexDirection: "column",
+
+
+          
         }}
       >
+        <button className="Button-style">CLICK!</button>
+
+        
+
+
         <h1 style={{ color: "pink", backgroundColor: "white" }}>
           デグメディア
         </h1>

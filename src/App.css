@@ -53,54 +53,26 @@
 .read-the-docs {
   color: #888;
 }
-/* .heart {
-  width: 120px;
-  height: 120px;
-  position: relative;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: opacity 1s ease, transform 1s ease;
-}
 
-.heart::before,
-.heart::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 60px;
-  height: 100px;
-  background: #97d9e1;
-  border-radius: 100px 100px 0 0;
-}
-.heart::before {
-  left: 60px;
-  transform: rotate(-45deg);
-  transform-origin: 0 100%;
-}
-.heart::after {
-  left: 0;
-  transform: rotate(45deg);
-  transform-origin: 100% 100%;
-}
-
-.heart-c::before {
-  background-image: linear-gradient(
-    to top,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
+.Button-style {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0.5em 1em 0.3em;
+  color: #0099ff;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    -45deg,
+    #ddeeff 25%,
+    #c6e6fb 25%,
+    #c6e6fb 50%,
+    #ddeeff 50%,
+    #ddeeff 75%,
+    #c6e6fb 75%,
+    #c6e6fb
   );
-}
-.heart-c::after {
-  background-image: linear-gradient(
-    to bottom,
-    #f3e7e9 0%,
-    #e3eeff 99%,
-    #e3eeff 100%
-  );
+  background-size: 10px 10px;
+  cursor: pointer;
 }
 
-body .heart {
-  opacity: 1;
-  transform: scale(1);
-} */
+
