@@ -2,10 +2,10 @@ import Heart from "./Heart";
 
 const Hearts = () => {
   const hearts = [
-    { top: 100, left: 100 },
-    { top: 200, left: 300 },
-    { top: 400, left: 200 },
-    { top: 150, left: 500 },
+    { top: 0, left: 50 },
+    { top: 200, left: 130 },
+    { top: -300, left: 500 },
+    { top: 0, left: 500 },
   ];
 
   return (
@@ -16,5 +16,6 @@ const Hearts = () => {
     </div>
   );
 };
+
 
 export default Hearts;

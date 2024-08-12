@@ -29,9 +29,16 @@ function App() {
         >
           〜おばあちゃんデグーの長生き方法〜
         </h2>
+        
+        
 
+        
+
+        
         <Hearts />
         <div className="card"></div>
+
+
       </div>
     </>
   );
