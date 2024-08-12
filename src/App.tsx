@@ -1,6 +1,7 @@
 import backgroundImage from "./assets/img/toto_eat.jpg";
 import "./App.css";
 import Hearts from "./components/Hearts";
+import LinkButton from "./components/LinkButton";
 
 function App() {
   return (
@@ -17,15 +18,9 @@ function App() {
           justifyContent: "flex-start",
           alignItems: "center",
           flexDirection: "column",
-
-
-          
         }}
       >
-        <button className="Button-style">CLICK!</button>
-
-        
-
+        <LinkButton />
 
         <h1 style={{ color: "pink", backgroundColor: "white" }}>
           デグメディア
@@ -37,16 +32,9 @@ function App() {
         >
           〜おばあちゃんデグーの長生き方法〜
         </h2>
-        
-        
 
-        
-
-        
         <Hearts />
         <div className="card"></div>
-
-
       </div>
     </>
   );
