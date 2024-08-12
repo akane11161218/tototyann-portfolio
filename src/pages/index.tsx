@@ -30,7 +30,7 @@ const Home = () => {
           〜おばあちゃんデグーの長生き方法〜
         </h2>
 
-        <LinkButton />
+        <LinkButton to="/oyatu">おすすめのおやつ</LinkButton>
 
         <Hearts />
         <div className="card"></div>
