@@ -1,0 +1,38 @@
+.heart {
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+  position: relative;
+  transform: rotate(-45deg) scale(0.5);
+  opacity: 0;
+  transition: none;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.heart::before {
+  top: -60px;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  left: 60px;
+}
+
+.visible {
+  opacity: 1;
+  transform: rotate(-45deg) scale(1);
+}
+
+.initialized {
+  transition: opacity 1s ease, transform 1s ease;
+}

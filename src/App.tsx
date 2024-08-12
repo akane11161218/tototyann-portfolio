@@ -1,10 +1,10 @@
 import backgroundImage from "./assets/img/toto_eat.jpg";
 import "./App.css";
+import Hearts from "./components/Hearts";
 
 function App() {
   return (
     <>
-  
       <div
         style={{
           backgroundImage: `url(${backgroundImage})`,
@@ -23,20 +23,16 @@ function App() {
           デグメディア
         </h1>
 
-        <h2 style={{ color: "pink", backgroundColor: "white" }}
-        className="fade-in"
+        <h2
+          style={{ color: "pink", backgroundColor: "white" }}
+          className="fade-in"
         >
           〜おばあちゃんデグーの長生き方法〜
         </h2>
 
-        <div class="heart"></div>
-
-        
-
+        <Hearts />
         <div className="card"></div>
       </div>
-
-
     </>
   );
 }
