@@ -3,7 +3,7 @@ import Heart from "./Heart";
 const Hearts = () => {
   const hearts = [
     { top: 100, left: 100 },
-    { top: 150, left: 300 },
+    { top: 200, left: 300 },
     { top: 400, left: 200 },
     { top: 150, left: 500 },
   ];
