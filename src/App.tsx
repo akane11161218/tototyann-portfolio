@@ -20,7 +20,7 @@ function App() {
           flexDirection: "column",
         }}
       >
-        <LinkButton />
+        
 
         <h1 style={{ color: "pink", backgroundColor: "white" }}>
           デグメディア
@@ -32,6 +32,8 @@ function App() {
         >
           〜おばあちゃんデグーの長生き方法〜
         </h2>
+
+        <LinkButton />
 
         <Hearts />
         <div className="card"></div>
