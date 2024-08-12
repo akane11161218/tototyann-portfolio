@@ -22,11 +22,13 @@ function App() {
           デグメディア
         </h1>
 
-        <h2 style={{ color: "pink", backgroundColor: "white" }}>
+        <h2 style={{ color: "pink", backgroundColor: "white" }}
+        className="fade-in"
+        >
           〜おばあちゃんデグーの長生き方法〜
         </h2>
 
-        
+
 
         <div className="card"></div>
       </div>
