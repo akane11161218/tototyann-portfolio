@@ -13,7 +13,10 @@ const Oyatu = () => {
   return (
     <>
       <div>
-        <div>おやつ</div>
+        <div>おやつランキング</div>
+        <div>No.１</div>
+        <div>No.２</div>
+        <div>No.３</div>
         <LinkButton to="/">ホームへ</LinkButton>
       </div>
     </>
