@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import LinkButton from "../../components/LinkButton";
 import "./Oyatu.module.css";
 import kiwamiImage from "../../assets/img/kiwami.jpg";
@@ -17,13 +17,11 @@ const Oyatu = () => {
       <div>
         <div>おやつ解説</div>
         <ul>
-        <li>チモシーの極み</li>
+          <li>チモシーの極み</li>
         </ul>
-        
         <img src={kiwamiImage} alt="チモシーの極み" />
-  
         <ul>
-        <li>ベジドロップ</li>
+          <li>ベジドロップ</li>
         </ul>
         <img src={begiImage} alt="ベジドロップ" />
 
