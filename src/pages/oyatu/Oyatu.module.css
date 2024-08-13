@@ -1,38 +1,23 @@
 body {
   background-color: #f0f8ff;
 
+  ul {
+    list-style: none; /* デフォルトのマーカーを消す */
+    padding: 0;
+  }
 
+  ul li {
+    position: relative; /* li を相対位置に設定 */
+    padding-left: 0px; /* マーカーのスペースを確保 */
+  }
 
-ul li:last-child::marker {
-  color: #00008B; /* 点の色を変更 */
-  font-size: 50px; /* 点のサイズを変更 */
-  position: relative;
-  left: 100px; /* 点の水平位置を調整 */
+  ul li::before {
+    content: "•"; /* カスタムマーカーとして点を追加 */
+    color: #00008b; /* 点の色 */
+    font-size: 50px; /* 点のサイズ */
+    position: absolute; /* 絶対位置 */
+    left: 37px; /* 点の水平位置 */
+    top: 50%; /* 点の垂直位置 */
+    transform: translateY(-50%); /* 点を垂直中央に配置 */
+  }
 }
-
-ul {
-  list-style: none; /* デフォルトのマーカーを消す */
-  padding: 0;
-}
-
-ul li {
-  position: relative; /* li を相対位置に設定 */
-  padding-left: 0px; /* マーカーのスペースを確保 */
-}
-
-ul li::before {
-  content: "•"; /* カスタムマーカーとして点を追加 */
-  color: #00008B; /* 点の色 */
-  font-size: 50px; /* 点のサイズ */
-  position: absolute; /* 絶対位置 */
-  left: 37px; /* 点の水平位置 */
-  top: 50%; /* 点の垂直位置 */
-  transform: translateY(-50%); /* 点を垂直中央に配置 */
-}
-
-
-
-
-}
-
-
