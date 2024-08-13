@@ -19,4 +19,8 @@
   background-size: 10px 10px;
   cursor: pointer;
   z-index: 100;
+  position: absolute;
+  left: 50%; /* 左右の中央 */
+  transform: translateX(-50%); /* 左右の中央に正確に配置 */
+  bottom: 10px; 
 }
