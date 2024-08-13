@@ -16,11 +16,17 @@ const Oyatu = () => {
     <>
       <div>
         <div>おやつ解説</div>
-        <div>⚫︎チモシーの極み</div>
-        <img src={kiwamiImage} alt="チモシーの極み" />
-        <div>⚫︎ベジドロップ</div>
-        <img src={begiImage} alt="ベジドロップ" />
+        <ul>
+        <li>チモシーの極み</li>
+        </ul>
         
+        <img src={kiwamiImage} alt="チモシーの極み" />
+  
+        <ul>
+        <li>ベジドロップ</li>
+        </ul>
+        <img src={begiImage} alt="ベジドロップ" />
+
         <LinkButton to="/">ホームへ</LinkButton>
       </div>
     </>
