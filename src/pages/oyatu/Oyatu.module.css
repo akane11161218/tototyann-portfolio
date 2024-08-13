@@ -3,12 +3,3 @@ body {
 }
 
 
-.image-container {
-  text-align: center; /* 画像を中央に配置したい場合 */
-  margin-top: 10px;   /* 上から少し余白を取る場合 */
-}
-
-.image-container img {
-  width: 100px;  /* 画像の幅を小さく */
-  height: auto;  /* 高さは自動調整 */
-}
