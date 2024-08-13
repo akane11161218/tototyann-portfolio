@@ -24,3 +24,8 @@ const Oyatu = () => {
 };
 
 export default Oyatu;
+
+
+<div className="image-container">
+  <img src="/Users/sakuraianna/workspace/tototyann-portfolio/src/assets/img/kiwami.jpg" alt="Kiwami Image">
+</div>
