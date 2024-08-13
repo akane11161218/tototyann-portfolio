@@ -13,10 +13,10 @@ const Oyatu = () => {
   return (
     <>
       <div>
-        <div>おやつランキング</div>
-        <div>No.１</div>
-        <div>No.２</div>
-        <div>No.３</div>
+        <div>おやつ解説</div>
+        <div>⚫︎チモシーの極み</div>
+        <div>⚫︎ベジドロップ</div>
+
         <LinkButton to="/">ホームへ</LinkButton>
       </div>
     </>
@@ -25,7 +25,4 @@ const Oyatu = () => {
 
 export default Oyatu;
 
-
-<div className="image-container">
-  
-</div>
+<div className="image-container"></div>;
