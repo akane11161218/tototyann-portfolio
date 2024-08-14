@@ -48,7 +48,7 @@ const Oyatu = () => {
           </li>
         </ol>
         <img src={begiImage} alt="ベジドロップ" />
-
+ 
         <LinkButton to="/">ホームへ</LinkButton>
       </div>
     </>
