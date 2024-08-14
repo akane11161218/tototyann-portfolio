@@ -30,6 +30,17 @@ const Home = () => {
           〜おばあちゃんデグーの長生き方法〜
         </h2>
 
+        <p style={{ color: "black", backgroundColor: "white", padding: "20px", borderRadius: "50px",marginTop: "260px" }}>
+
+  このサイトでは <br />
+  デグーを飼っている方々へ向けて<br />
+  快適なデグ生を送ってもらうための
+  <br />情報をお届けします<br />
+</p>
+
+
+
+
         <LinkButton to="/oyatu">おすすめのおやつ</LinkButton>
 
         <Hearts />
