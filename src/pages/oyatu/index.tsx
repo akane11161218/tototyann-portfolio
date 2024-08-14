@@ -19,7 +19,7 @@ const Oyatu = () => {
         <ul>
           <li>チモシーの極み</li>
         </ul>
-        <console className="log">購入先</console>
+        
         <ol>
           <li>
             <a href="#features">Amazon</a>
@@ -35,7 +35,7 @@ const Oyatu = () => {
         <ul>
           <li>ベジドロップ</li>
         </ul>
-        <console className="log">購入先</console>
+        
         <ol>
           <li>
             <a href="#features">Amazon</a>
