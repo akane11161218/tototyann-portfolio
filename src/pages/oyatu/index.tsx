@@ -19,10 +19,22 @@ const Oyatu = () => {
         <ul>
           <li>チモシーの極み</li>
         </ul>
+        <console className="log">購入先</console>
+        <ol>
+      <li><a href="#features">Amazon</a></li>
+      <li><a href="#lessons">楽天</a></li>
+      <li><a href="#history">小岩井ペット</a></li>
+    </ol>
         <img src={kiwamiImage} alt="チモシーの極み" />
         <ul>
           <li>ベジドロップ</li>
         </ul>
+        <console className="log">購入先</console>
+        <ol>
+      <li><a href="#features">Amazon</a></li>
+      <li><a href="#lessons">楽天</a></li>
+      <li><a href="#history">小岩井ペット</a></li>
+    </ol>
         <img src={begiImage} alt="ベジドロップ" />
 
         <LinkButton to="/">ホームへ</LinkButton>
