@@ -1,0 +1,1 @@
+import "./sobu.module.css";

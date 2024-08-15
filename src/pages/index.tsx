@@ -42,6 +42,11 @@ const Home = () => {
 
 
         <LinkButton to="/oyatu">おすすめのおやつ</LinkButton>
+        
+        <div style={{ marginTop: "-100px" }}> {/* 位置調整用の div */}
+          <LinkButton to="/another-page">遊ばせかた</LinkButton>
+        </div>
+
 
         <Hearts />
         <div className="card"></div>
