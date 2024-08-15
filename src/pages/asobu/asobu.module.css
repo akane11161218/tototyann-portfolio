@@ -3,7 +3,5 @@ body {
   background-color: lightblue;
 }
 
-/* 特定のクラスに対して背景色を変更する場合 */
-.my-class {
-  background-color: #ffcc00; /* HEXコードで黄色に設定 */
-}
+
+
