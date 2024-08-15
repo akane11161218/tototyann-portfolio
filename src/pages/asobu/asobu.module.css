@@ -1,21 +1,9 @@
-@charset "utf-8";
-
+/* 例: bodyタグの背景色を変更する場合 */
 body {
-  margin: 0;
+  background-color: lightblue;
 }
 
-header {
-  background: pink;
-}
-
-main {
-  background: skyblue;
-}
-
-aside {
-  background: orange;
-}
-
-footer {
-  background: silver;
+/* 特定のクラスに対して背景色を変更する場合 */
+.my-class {
+  background-color: #ffcc00; /* HEXコードで黄色に設定 */
 }
