@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages";
-import Oyatu from "./pages/oyatu";
+// import Oyatu from "./pages/oyatu";
+
 
 function App() {
   return (
