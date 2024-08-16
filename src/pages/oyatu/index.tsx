@@ -15,7 +15,8 @@ const Oyatu = () => {
   return (
     <>
       <div>
-        <div>おやつ解説</div>
+        <h1>おやつ解説</h1>
+        <h2>aaa</h2>
         <ul>
           <li>チモシーの極み</li>
         </ul>
